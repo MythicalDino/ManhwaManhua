@@ -1,6 +1,8 @@
 // app/sitemap.ts
 import { MetadataRoute } from "next";
 
+export const dynamic = 'force-static';
+
 /**
  * Sitemap that fetches MangaDex but is safe for build/runtime:
  * - Limits results to avoid rate limits

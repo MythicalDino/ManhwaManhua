@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
     "scope": "/", // Added: Defines the navigation scope. Prevents navigation outside the app's domain, enhancing PWA security and user experience.

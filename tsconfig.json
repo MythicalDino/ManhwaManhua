@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,9 +23,27 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/manga/[mangaId]/chapters/page.jsx", "app/manga-list/page.jsx", "app/Core/Home.jsx", "app/(home)/layout.jsx", "app/(home)/manga/layout.jsx", "app/(home)/page.tsx", "app/page.jsx", "app/(core)/manga/[mangaId]/chapter/[chapterId]/read/page.jsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/(core)/manga/[mangaId]/chapter/[chapterId]/read/page.jsx",
+    "app/(home)/layout.jsx",
+    "app/(home)/manga/layout.jsx",
+    "app/(home)/page.tsx",
+    "app/Core/Home.jsx",
+    "app/manga-list/page.jsx",
+    "app/manga/[mangaId]/chapters/page.jsx",
+    "app/page.jsx",
+    "next-env.d.ts",
+    "dist/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

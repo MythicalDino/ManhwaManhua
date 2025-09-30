@@ -40,6 +40,7 @@ app/Components/LibraryComponents/SelectedMangaCard.jsx
 # next.js
 /.next/
 /out/
+/dist/
 
 
 # production
@@ -60,6 +61,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# cloudflare
+.open-next/
+.wrangler/
 
 # typescript
 *.tsbuildinfo

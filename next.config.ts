@@ -1,9 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: "standalone",
-  serverExternalPackages: ['puppeteer-core', '@sparticuz/chromium'],
-  experimental: { optimizeCss: true,optimizePackageImports: ['lucide-react']},
+  // Back to Cloudflare Pages configuration for full functionality
+  experimental: { 
+    optimizeCss: true,
+    optimizePackageImports: ['lucide-react']
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
