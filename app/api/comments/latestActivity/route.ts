@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
@@ -43,7 +44,7 @@ export async function GET() {
                 chapterTitle: "Toward the Tree on That Hill",
                 commentAuthor: "TitanSlayer",
                 originalPostAuthor: "Final Chapter Team",
-                threadUrl: "https://forums.mangadex.org/threads/attack-on-titan.789/",
+                threadUrl: "https://forums.mangadx.org/threads/attack-on-titan.789/",
                 timestamp: new Date(Date.now() - 1000 * 60 * 60).toISOString(), // 1 hour ago
                 content: "What an ending! This series will be remembered forever.",
                 likes: 156,
@@ -57,7 +58,7 @@ export async function GET() {
                 chapterTitle: "Life Shining Across the Years",
                 commentAuthor: "BreathingTechnique",
                 originalPostAuthor: "Kimetsu Scans",
-                threadUrl: "https://forums.mangadex.org/threads/demon-slayer.012/",
+                threadUrl: "https://forums.mangadx.org/threads/demon-slayer.012/",
                 timestamp: new Date(Date.now() - 1000 * 60 * 90).toISOString(), // 1.5 hours ago
                 content: "Beautiful conclusion to an amazing journey. Tanjiro's story touched my heart.",
                 likes: 89,
@@ -71,7 +72,7 @@ export async function GET() {
                 chapterTitle: "The Final Act",
                 commentAuthor: "PlusUltra",
                 originalPostAuthor: "Hero Scans",
-                threadUrl: "https://forums.mangadex.org/threads/my-hero-academia.345/",
+                threadUrl: "https://forums.mangadx.org/threads/my-hero-academia.345/",
                 timestamp: new Date(Date.now() - 1000 * 60 * 120).toISOString(), // 2 hours ago
                 content: "Deku's character development has been incredible throughout this series!",
                 likes: 67,
